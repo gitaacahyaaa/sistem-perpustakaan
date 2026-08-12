@@ -1,0 +1,33 @@
+body {
+    background: #F5F6FA;
+}
+
+main {
+    min-height: calc(100vh - 56px);
+}
+
+.list-group-item.active {
+    background-color: #4EA8FF;
+    border-color: #4EA8FF;
+}
+
+.card-stat {
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+}
+
+.card-stat .stat-number {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card-stat.bg-buku   { background: linear-gradient(135deg, #4EA8FF, #2C2756); }
+.card-stat.bg-anggota{ background: linear-gradient(135deg, #A78BFA, #2C2756); }
+.card-stat.bg-pinjam { background: linear-gradient(135deg, #FF6B6B, #2C2756); }
+.card-stat.bg-denda  { background: linear-gradient(135deg, #FFA94D, #2C2756); }
+
+table thead {
+    background: #2C2756;
+    color: #fff;
+}
