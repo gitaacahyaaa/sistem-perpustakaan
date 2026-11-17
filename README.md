@@ -15,7 +15,7 @@ peminjaman, pengembalian, denda otomatis, dan log aktivitas. Login admin, UI Boo
 ## Struktur folder
 ```
 perpustakaan/
-├── config/database.php     ← koneksi database (edit kalau perlu)
+├── config/database.php     ← koneksi database 
 ├── includes/                ← header, sidebar, footer, auth guard, helper functions
 ├── sql/perpustakaan.sql     ← skema database + data contoh
 ├── buku/                    ← CRUD data buku
